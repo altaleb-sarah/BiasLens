@@ -641,6 +641,11 @@ def about():
             "scikit-learn · TF-IDF · Logistic Regression · "
             "Streamlit · Plotly"
         )
+    st.link_button(
+        "View project on GitHub",
+        "https://github.com/altaleb-sarah/BiasLens",
+        use_container_width=True,
+    )
 # -------------------- State & Navigation --------------------
 for key, initial in {
     "text_input": "",
